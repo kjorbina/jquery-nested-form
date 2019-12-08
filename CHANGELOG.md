@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 0.6.0
+
+* Support multi-level nested form.
+* Remove `onBuildTemplate` callback. Use `onBuildForm` instead.
+* Change `maxIndex` to `max`. `max` is not the index of form but the number of forms.
+* Refactoring.
+
 ## 0.5.1
 
 * Find adder element in container first.
